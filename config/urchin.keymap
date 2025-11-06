@@ -111,13 +111,13 @@
 
         // Numbers and high frequency symbols
 
-        sym_layer {
-            label = "Sym.";
+        numeric {
+            label = "Num.";
             bindings = <
-&kp N1        &kp N2       &kp N3       &kp N4       &kp N5       &kp N6      &kp N7       &kp N8        &kp N9        &kp N0
-&kp IT_LESS   &kp IT_USD   &kp IT_LPAR  &kp IT_LBRC  &kp IT_LBKT  &kp IT_EQL  &kp IT_QUES  &kp IT_SQUOT  &kp IT_MINUS  &kp IT_AST
-&kp IT_GREAT  &kp IT_PERC  &kp IT_RPAR  &kp IT_RBRC  &kp IT_RBKT  &kp IT_AT   &kp IT_EXCL  &kp IT_DQUOT  &kp IT_PLUS   &kp IT_FSLH
-                                        &mo FNC      &mo SYM2     &trans      &trans
+&kp F8        &kp F9  &kp F10  &kp F11  &kp F12   &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH
+&kp IT_LESS   &kp F5  &kp F6   &kp F7   &kp F8    &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DOT
+&kp IT_GREAT  &kp F1  &kp F2   &kp F3   &kp F4    &kp MINUS        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK
+                               &mo FNC  &mo SYM2  &trans           &trans
             >;
         };
 
