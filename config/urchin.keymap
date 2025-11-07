@@ -221,12 +221,42 @@
 
         combo_equals {
             bindings = <&kp KP_EQUAL>;
-            key-positions = <14 24>;
+            key-positions = <13 23>;
         };
 
         combo_underscore {
             bindings = <&kp UNDER>;
-            key-positions = <13 23>;
+            key-positions = <14 24>;
+        };
+
+        combo_lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <0 1>;
+        };
+
+        combo_gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <1 2>;
+        };
+
+        combo_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <12 22>;
+        };
+
+        combo_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <20 21>;
+        };
+
+        combo_pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <18 28>;
+        };
+
+        combo_amp {
+            bindings = <&kp AMPS>;
+            key-positions = <18 8>;
         };
     };
 
