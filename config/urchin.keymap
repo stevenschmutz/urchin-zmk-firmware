@@ -81,7 +81,7 @@
 
         combo_backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <7 6>;
+            key-positions = <7 8>;
         };
 
         combo_question {
