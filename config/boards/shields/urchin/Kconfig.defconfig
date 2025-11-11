@@ -2,7 +2,7 @@ if SHIELD_URCHIN_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "urchin"
+    default "urchin_dongle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
