@@ -55,6 +55,13 @@
             #binding-cells = <0>;
             bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
         };
+
+        macro_open_close_paren: macro_open_close_paren {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LPAR &kp RPAR>;
+            label = "MACRO_OPEN_CLOSE_PAREN";
+        };
     };
 
     combos {
@@ -262,6 +269,11 @@
         combo_delete {
             bindings = <&kp DELETE>;
             key-positions = <7 6 32>;
+        };
+
+        combo_open_close {
+            bindings = <&macro_open_close_paren>;
+            key-positions = <15 16 17>;
         };
     };
 
